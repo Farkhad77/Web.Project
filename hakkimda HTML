@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+<style>
+       body, html {
+            height: 100%;
+            margin: 0;
+        }
+    .div{
+        min-height: 100%;
+            width: 30%;
+            background-color: cadetblue;
+            position: relative;
+            box-sizing: border-box;
+            padding-bottom: 100px; /* İçeriğin altına boşluk eklemek için */
+    }
+    .p{
+        padding-top:10%;
+        margin-left: 27%;
+        font-family: fantasy;
+        font-size: 30px;
+        color: white;
+    }
+    h1{
+        position: absolute;
+    top: 5%;
+     /* Sağ taraftan 10 piksel içeri */
+    font-family: cursive;
+    font-size: 30px;
+    right: 50%;
+    color: black;
+    }
+    .a{
+            text-decoration: none;
+            padding: 5px;
+            color: white;
+            
+        }
+        a:hover{
+            
+            color:red;
+            transition: 0.7s;
+        }
+        .ul {
+            background-color:black;
+            padding: 5px;
+            margin:0;
+            opacity: 0.5;
+            
+        }
+         .li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 4%; /* Listenin öğeleri arasında boşluk bırak */
+            margin-left: 132px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 35px;
+            font-size: 15px;
+           
+        }
+</style>
+    </head>
+
+
+    <body>
+        <link rel="stylesheet" href=">
+        <ul class="ul">
+            <li class="li"><a href="" class="a"><i class="fa fa-envelope" >  </i> Iletisim</a></li>
+            <li class="li"><a href="> <i class="fa-solid fa-circle-info"> </i> Hakkimda</a></li>
+            <li class="li"><a href= ><i class="fa-regular fa-file-lines"></i> Cv-im</a></li>
+            <li class="li"><a href=class="a" ><i class="fa-solid fa-earth-americas"></i> Sehrim</a></li>
+        </ul>
+    <div class="div">
+        
+<P class="p"></P>
+ <p style="margin-left:40%;
+ font-family: fantasy;
+ font-size: 30px;margin-top: -30px;color: white;"> Javid </P>
+ <img src="" alt="" style="position:absolute; width: 50%;height: 40%;top: 30%;right: 30%;border-radius: 20px;">
+
+ <p style="margin-left: 8%;color: white;font-family: cursive">
+   Ben Sakarya üniversitesinin 
+   2.sınıf öğrencisiyim.
+   Bölüm:
+   Bilgisayar mühendisliği.
+   Web teknoliji dersi.
+ </p>
+   
+    </div>
+    <h1>Benim
+    Hakkimda :</h1>
+    <h2 style="position: absolute;top: 17%;margin-left: 32%;font-family: cursive;">
+    Ben Sakarya universitesinin ogrencisiyim.Ilgi alanlarim ve sevdigim spor turleri vardir.
+    <ul>
+        Hobilerim:
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+    </ul>
+    <ul>
+        Sevdigim spor turleri:
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    
+    
+    
+    </h2>
+   
+    
+    </body>
+
+
+</html>
