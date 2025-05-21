@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Example</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <style>
+    img{  
+      height: 100%;
+      width: 50%;
+      z-index: -1;
+      position: absolute;
+     
+    }
+    body{
+        margin: 0;
+        
+    }
+    .div{
+        background-color: white;
+        opacity: 0.5;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 200px; /* ya da istediğiniz genişlik */
+       
+    }
+   
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 66%;
+       
+    }
+    .login{
+        position: absolute;
+        top: 20%;
+        right: 20%;
+        
+    }
+    input{
+        background-color: azure;
+        border-radius: 20px;
+    }
+    
+   
+   </style>
+    </head>
+    <body>
+        
+            
+        <div class="div">
+            <img src="photos/album_1979_hl8pbhweou.jpg" alt="">
+        </div>
+        
+        <h2>Hesabiniz login yapin</h2>
+         <form class="login" method="post" action="login.php">
+                <label  for="">Email giriniz:</label>
+                <br>
+             <input style="padding-right: 50%;" type="email" placeholder="Email address" name="email">
+             <br>
+             <label for="">Sifre giriniz: </label> 
+             <br>
+             <input style="padding-right: 50%;" type="password" placeholder="********" name="password">
+             <br>
+             <br>
+             <input type="submit" value="Gonder" onclick="kontrol()">
+             <input style="margin-left: 30%;padding-left: 10%;padding-right:10%;" type="reset" value="Sil">
+         </form>
+  
+    </body>
+   
+</html>
