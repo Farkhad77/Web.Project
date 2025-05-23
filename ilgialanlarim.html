@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hakkımda - Farhad Ramazanov</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <style>
+    /* Genel ayarlar */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6fc3df 0%, #204a5f 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* Menü */
+    ul.menu {
+      list-style: none;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 12px 30px;
+      border-radius: 50px;
+      display: flex;
+      gap: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      font-weight: 600;
+    }
+
+    ul.menu li {
+      display: inline-flex;
+      align-items: center;
+      font-size: 16px;
+      transition: color 0.4s ease;
+    }
+
+    ul.menu li i {
+      margin-right: 8px;
+      color: #ffc107;
+      font-size: 18px;
+      transition: color 0.4s ease;
+    }
+
+    ul.menu li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    ul.menu li a:hover,
+    ul.menu li:hover i {
+      color: #ff4444;
+      cursor: pointer;
+    }
+
+    /* Sol blok */
+    .sidebar {
+      background-color: rgba(0, 128, 128, 0.85);
+      border-radius: 25px;
+      width: 320px;
+      padding: 40px 30px;
+      box-shadow: 0 10px 25px rgba(0, 128, 128, 0.5);
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .sidebar p.name-big {
+      font-family: 'Fantasy', cursive;
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #fff;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar p.name-small {
+      font-family: 'Fantasy', cursive;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #dff0f0;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .sidebar p.description {
+      font-family: 'Cursive', cursive;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #e0f7f7;
+    }
+
+    /* Hakkımda başlığı */
+    h1.about-title {
+      font-family: 'Cursive', cursive;
+      font-size: 38px;
+      margin-bottom: 15px;
+      color: #ffe0b3;
+      text-shadow: 2px 2px 8px #222;
+    }
+
+    /* Hakkımda içerik */
+    .about-content {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 25px 40px;
+      border-radius: 20px;
+      width: 70%;
+      max-width: 900px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      color: #f1f1f1;
+      font-family: 'Cursive', cursive;
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 40px;
+      user-select: none;
+    }
+
+    .about-content ul {
+      list-style: disc inside;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding-left: 0;
+    }
+
+    .about-content ul li {
+      margin-bottom: 6px;
+    }
+
+    /* Responsive */
+    @media (max-width: 960px) {
+      body {
+        padding: 15px;
+      }
+
+      .sidebar {
+        width: 90%;
+        margin-bottom: 35px;
+      }
+
+      .about-content {
+        width: 90%;
+        padding: 20px;
+        font-size: 16px;
+      }
+
+      ul.menu {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px 20px;
+        border-radius: 15px;
+      }
+
+      ul.menu li {
+        font-size: 14px;
+      }
+
+      .about-content ul li {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul class="menu">
+    <li><a href="#"><i class="fa fa-envelope"></i> İletişim</a></li>
+    <li><a href="hakkimda.html"><i class="fa-solid fa-circle-info"></i> Hakkımda</a></li>
+    <li><a href="Cv.html"><i class="fa-regular fa-file-lines"></i> CV-im</a></li>
+    <li><a href="Sehirtanitim.html"><i class="fa-solid fa-earth-americas"></i> Şehrim</a></li>
+  </ul>
+
+  <div class="sidebar">
+    <p class="name-big">Merhaba, Ben Farhad Ramazanov</p>
+    <p class="name-small">Farhad</p>
+    <p class="description">
+      Ben Sakarya Üniversitesi'nin 2. sınıf öğrencisiyim.<br />
+      Bölüm: Bilgisayar Mühendisliği<br />
+      Web Teknolojileri dersi
+    </p>
+  </div>
+
+  <h1 class="about-title">Benim Hakkımda:</h1>
+
+  <div class="about-content">
+    <p>
+      Ben Sakarya Üniversitesi'nin öğrencisiyim. İlgi alanlarım ve sevdiğim spor türleri vardır.
+    </p>
+
+    <p><strong>Hobilerim:</strong></p>
+    <ul>
+      <li>Kitap okumak</li>
+      <li>Arkadaşlarımla buluşmak</li>
+      <li>Spor yapmak</li>
+      <li>Bilgisayar oyunlarını oynamak</li>
+      <li>Film izlemek</li>
+    </ul>
+
+    <p><strong>Sevdiğim spor türleri:</strong></p>
+    <ul>
+      <li>Boks</li>
+      <li>Bilek güreşi</li>
+      <li>Yüzme</li>
+    </ul>
+
+    <h2>Popüler Filmler (TMDb API)</h2>
+<div id="tmdb-movies" style="display: flex; gap: 15px; flex-wrap: wrap;"></div>
+  </div>
+  <script>
+    const apiKey = '3c8c498e8d3e1da1cec7be596bdbbffa'; 
+  
+    async function fetchPopularMovies() {
+      const container = document.getElementById('tmdb-movies');
+      container.innerHTML = 'Yükleniyor...';
+  
+      try {
+        const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=tr-TR&page=1`);
+        const data = await response.json();
+  
+        if (data.results && data.results.length > 0) {
+          container.innerHTML = ''; 
+  
+          data.results.slice(0, 6).forEach(movie => {
+            const posterUrl = movie.poster_path
+              ? `https://image.tmdb.org/t/p/w200${movie.poster_path}`
+              : 'https://via.placeholder.com/200x300?text=No+Image';
+  
+            const movieElem = document.createElement('div');
+            movieElem.style.width = '130px';
+            movieElem.style.textAlign = 'center';
+            movieElem.style.fontSize = '14px';
+            movieElem.style.color = '#fff';
+  
+            movieElem.innerHTML = `
+              <img src="${posterUrl}" alt="${movie.title}" style="width: 100%; border-radius: 8px;"/>
+              <p style="margin-top: 8px;">${movie.title}</p>
+            `;
+  
+            container.appendChild(movieElem);
+          });
+        } else {
+          container.textContent = 'Film bulunamadı.';
+        }
+      } catch (error) {
+        container.textContent = 'Veri alınırken hata oluştu.';
+        console.error(error);
+      }
+    }
+  
+    window.onload = fetchPopularMovies;
+  </script>
+  
+</body>
+
+</html>
